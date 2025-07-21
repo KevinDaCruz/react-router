@@ -8,10 +8,10 @@ function Header() {
           <Nav.Link as="a" href="/">
             Accueil
           </Nav.Link>
-          <Nav.Link as="a" href="/vetements">
+          <Nav.Link as="a" href="/categorie/vetements">
             Vêtements
           </Nav.Link>
-          <Nav.Link as="a" href="/chaussures">
+          <Nav.Link as="a" href="/categorie/chaussures">
             Chaussures
           </Nav.Link>
         </Nav>
