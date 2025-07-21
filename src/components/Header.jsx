@@ -8,10 +8,8 @@ function Header() {
   return (
     <header className="bg-light border-bottom py-2">
       <Container>
-        {match ? (
+        {match && (
           <div className="fw-bold">Catégorie : {match.params.category}</div>
-        ) : (
-          <div />
         )}
         <Nav className="justify-content-end">
           <Nav.Link as={NavLink} to="/" className="nav-link">
